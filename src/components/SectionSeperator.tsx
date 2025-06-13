@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionSeperator({ mainText, secondText }: { mainText: string; secondText: string }) {
     return (
-        <div className='px-5 py-20 flex flex-row gap-2 w-full'>
+        <div className='px-5 py-14 flex flex-row gap-2 w-full relative z-0'>
             <h1 className='text-5xl'>{mainText} <span className='text-border'>{secondText}</span></h1>
             <div className='hidden md:flex flex-row items-center flex-[1]'>
                 <div className='h-[2px] w-full bg-border relative flex'>
