@@ -1,7 +1,7 @@
 'use client'
 import { Quote } from 'lucide-react';
 import React from 'react'
-import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
+import { Carousel, CarouselContent } from './ui/carousel';
 import Autoplay from "embla-carousel-autoplay"
 
 function Reviews() {
