@@ -1,3 +1,4 @@
+import FAQ from "@/components/FAQ";
 import Header from "@/components/Header";
 import Product from "@/components/Product";
 import ProductHighlights from "@/components/ProductHighlights";
@@ -13,6 +14,9 @@ export default function page() {
       <ProductHighlights />
       <SectionSeperator mainText={"Reviews"} secondText={"You Definitely Need"} />
       <Reviews />
+      <SectionSeperator mainText={"Frequently Asked"} secondText={"questions"} />
+      <FAQ />
+      <div className="mt-8"></div>
     </main>
   );
 }

@@ -18,7 +18,8 @@ function Product() {
                             preload="auto"
                             autoPlay={true}
                             muted={true}
-                            loop={true} />
+                            loop={true}
+                            className='min-h-[40vh]' />
                     </div>
                     <div className='flex-1 flex flex-col justify-around'>
                         <div>
