@@ -56,9 +56,9 @@ const FAQItems = [
 
 function FAQ() {
     return (
-        <div className='px-5 flex flex-col gap-4'>
+        <div className='px-5 flex flex-col gap-4 '>
             {FAQItems.map((item, idx) => (
-                <FAQItem
+            <FAQItem
                     key={idx}
                     title={item.title}
                     description={item.description}
