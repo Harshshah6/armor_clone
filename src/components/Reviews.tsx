@@ -43,7 +43,7 @@ type ReviewChipProps = {
 
 function ReviewChip({ description, span, tag1, tag2, className }: ReviewChipProps) {
     return (
-        <div className={`p-8 my-5 mx-2 md:mx-5 min-w-[90vw] md:min-w-[400px] z-10 border-2 border-black rounded-lg relative flex flex-col gap-10 justify-between overflow-visible ${className}`}>
+        <div className={`p-8 my-5 mx-3 min-w-[90vw] md:min-w-[400px] z-10 border-2 border-black rounded-lg relative flex flex-col gap-10 justify-between overflow-visible ${className}`}>
             <Quote
                 fill='black'
                 stroke='0'
