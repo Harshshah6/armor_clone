@@ -11,15 +11,15 @@ function Product() {
                     'mt-5 mb-10 leading-tight',
                     'flex items-center justify-center',
                 )} >
-                <div className='flex flex-col md:flex-row gap-2 p-4'>
-                    <div className='flex-1'>
+                <div className='flex flex-col md:flex-row gap-2 p-4 w-full'>
+                    <div className=''>
                         <video
                             src="https://assets.replocdn.com/projects/199319aa-f908-4d9e-95bb-f0464fa8cf57/00258507-5d09-4925-8956-1cc3d6c2b947"
                             preload="auto"
                             autoPlay={true}
                             muted={true}
                             loop={true}
-                            className='min-h-[40vh]' />
+                            className='md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px]' />
                     </div>
                     <div className='flex-1 flex flex-col justify-around'>
                         <div>
