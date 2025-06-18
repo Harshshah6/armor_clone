@@ -57,8 +57,8 @@ export default function Footer() {
 
 function LinksBox({ links }: { links: { text: string; link: string; }[] }) {
     return (
-        <div className="flex flex-col gap-2 transition-all duration-300">
-            {links.map((item, idx) => <Link className='font-normal uppercase hover:font-[600]' key={idx} href={item.link}>{item.text}</Link>)}
+        <div className="flex flex-col gap-2 ">
+            {links.map((item, idx) => <Link className='font-normal transition-colors duration-300 text-black/65 uppercase hover:text-black' key={idx} href={item.link}>{item.text}</Link>)}
         </div>
     );
 }
